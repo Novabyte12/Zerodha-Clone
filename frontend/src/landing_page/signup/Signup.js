@@ -25,7 +25,7 @@ export default function Login() {
 
       if (res.data) {
         alert("Login Successful");
-        window.location.href = "http://localhost:3000";
+        window.location.href = "https://soft-sherbet-559c01.netlify.app";
       }
     } catch (err) {
       alert("Invalid Email or Password");
