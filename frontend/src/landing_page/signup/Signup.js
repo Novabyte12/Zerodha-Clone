@@ -19,7 +19,7 @@ export default function Login() {
 
     try {
       const res = await axios.post(
-        "http://localhost:3002/api/auth/login",
+        "https://zerodha-backend-tnwb.onrender.com/api/auth/login",
         user
       );
 

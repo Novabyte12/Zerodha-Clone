@@ -24,7 +24,7 @@ export default function Auth() {
       if (isLogin) {
         // Login
         const res = await axios.post(
-          "http://localhost:3002/api/auth/login",
+          "https://zerodha-backend-tnwb.onrender.com/api/auth/login",
           {
             email: user.email,
             password: user.password,
@@ -38,7 +38,7 @@ export default function Auth() {
       } else {
         // Signup
         const res = await axios.post(
-          "http://localhost:3002/api/auth/signup",
+          "https://zerodha-backend-tnwb.onrender.com/api/auth/signup",
           user
         );
 
