@@ -33,7 +33,7 @@ export default function Auth() {
 
         if (res.data) {
           alert("Login Successful");
-          window.location.href = "https://6a6e231c60926ec66e2023a9--dreamy-muffin-1f4691.netlify.app//home";
+          window.location.href = "https://6a6e231c60926ec66e2023a9--dreamy-muffin-1f4691.netlify.app/home";
         }
       } else {
         // Signup
